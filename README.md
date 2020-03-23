@@ -9,3 +9,10 @@
 
 Графики метрики точности
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab1/epoch_acc.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab1/epoch_val_acc.jpg)
+
+Графики функции потерь
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab1/epoch_loss.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab1/epoch_val_loss.jpg)
+
+
