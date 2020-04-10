@@ -14,9 +14,18 @@ BUTCH_SIZE=8, lr=0.0000001
 
 В файле train_freeze.py использована предобученная на image.net сеть VGG16. В данной сети были заморожены свёрточные слои и 
 производилось обучение классификатора с последующим сохранением весовых коэффициентов.
-Графики для замороженной VGG16:
+Графики для замороженной сети:
 
 BUTCH_SIZE=8, lr=0.0000009
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.0000009.jpg)
+
+В файле train_defrost.py использована предобученная на image.net сеть VGG16. В данной сети были разморожены свёрточные слои
+и использованны весовые коэффициенты из предыдущего запуска. 
+Графики для размороженной сети:
+
+BUTCH_SIZE=8, lr=0.00000000001
+![Image alt](https://github.com/Repsolka/SMOMI/tree/Lab3/Graphs/PreTrainedDefrost)
+
+
 
 
