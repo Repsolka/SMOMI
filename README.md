@@ -24,7 +24,7 @@ BUTCH_SIZE=8, lr=0.0000009
 Графики для размороженной сети:
 
 BUTCH_SIZE=8, lr=0.00000000001
-![Image alt](https://github.com/Repsolka/SMOMI/tree/Lab3/Graphs/PreTrainedDefrost)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedDefrost/defrost_8_0.00000000001.jpg)
 
 
 
