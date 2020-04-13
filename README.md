@@ -4,7 +4,7 @@
 
 a) В первом пункте для аугментации данных использовал горизонтальное отражение данных с помощью 
 
-tf.image.random_flip_left_right(image)
+    tf.image.random_flip_left_right(image)
 Файл train_randomFlipping.py, lr = 1*10^(-11)
 Графики:
 
