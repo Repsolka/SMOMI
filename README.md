@@ -8,8 +8,8 @@ a) В первом пункте для аугментации данных ис�
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/randomFlipping/flip_1e-11.jpg)
 
 c) В данном пункте проводилась аугментация данных с помощью случайного изменения яркости и контраста 
-    image = tf.image.random_brightness(image, 0.5, seed=None)
-    image = tf.image.random_contrast(image, lower=0.2, upper=1.2 seed=None)
+    >image = tf.image.random_brightness(image, 0.5, seed=None)
+    >image = tf.image.random_contrast(image, lower=0.2, upper=1.2 seed=None)
 Файл train_randomBrightness.py, lr = 1*10^(-11).
 Графики:
 
