@@ -12,8 +12,8 @@ tf.image.random_flip_left_right(image)
 
 c) В данном пункте проводилась аугментация данных с помощью случайного изменения яркости и контраста 
 
-    image = tf.image.random_brightness(image, 0.5, seed=None)
-    image = tf.image.random_contrast(image, lower=0.2, upper=1.2 seed=None)
+    tf.image.random_brightness(image, 0.5, seed=None)
+    tf.image.random_contrast(image, lower=0.2, upper=1.2 seed=None)
 Файл train_randomBrightness.py, lr = 1*10^(-11).
 Графики:
 
