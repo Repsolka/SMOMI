@@ -10,6 +10,14 @@ a) В первом пункте для аугментации данных ис�
 
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/randomFlipping/flip_1e-11.jpg)
 
+б) Аугментация с помощью поворота на случайный угол [-a;a] 
+   
+    image = tf.contrib.image.rotate(image, dgr * math.pi / 180, interpolation='BILINEAR')
+Файл train_rotate.py, lr = 1*10^(-11)
+Графики:
+
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30d.jpg)
+
 c) В данном пункте проводилась аугментация данных с помощью случайного изменения яркости и контраста 
 
     tf.image.random_brightness(image, 0.5, seed=None)
