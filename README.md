@@ -53,4 +53,10 @@
     **Сравнение**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_compare.jpg)
 
+   **e)** Методы a, b, c, d с оптимальными параметрами
+   
+  Графики:
+  ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/AllAugment/all_1e-11_all.jpg)
+  
+
 
