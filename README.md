@@ -55,6 +55,14 @@
 
    **e)** Методы a, b, c, d с оптимальными параметрами
    
+    image = tf.image.random_crop(image, size=[112, 112, 3], seed=None, name=None)
+    image = tf.image.random_flip_left_right(image)
+    image = tf.image.random_brightness(image, 0.5, seed=None)
+    image = tf.image.random_contrast(image, lower=0.2, upper=1.2, seed=None)
+    degree = 45
+    dgr = random.uniform(-degree, degree)
+    image = tf.contrib.image.rotate(image, dgr * math.pi / 180, interpolation='BILINEAR')
+   
   Графики:
   ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/AllAugment/all_1e-11_all.jpg)
   
