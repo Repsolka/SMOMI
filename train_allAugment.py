@@ -131,7 +131,7 @@ def main():
     model = build_model()
 
     model.compile(
-        optimizer=keras.optimizers.sgd(lr=0.00000000005, momentum=0.9),
+        optimizer=keras.optimizers.sgd(lr=0.00000000001, momentum=0.9),
         loss=tf.keras.losses.categorical_crossentropy,
         metrics=[tf.keras.metrics.categorical_accuracy],
         target_tensors=[train_labels]
