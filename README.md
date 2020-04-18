@@ -63,6 +63,7 @@
     dgr = random.uniform(-degree, degree)
     image = tf.contrib.image.rotate(image, dgr * math.pi / 180, interpolation='BILINEAR')
    
+   Файл train_randomFlipping.py, lr = 1*10^(-11)
   Графики:
   ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/AllAugment/all_1e-11_all.jpg)
   
