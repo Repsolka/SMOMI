@@ -114,7 +114,7 @@ class Validation(tf.keras.callbacks.Callback):
 def exp_decay(epoch):
    initial_lrate = 0.0000000001
    k = 0.1
-   lrate = initial_lrate * exp(-k*t)
+   lrate = initial_lrate * np.exp(-k*epoch)
    return lrate
  
 
