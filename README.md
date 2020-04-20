@@ -12,7 +12,7 @@
         epochs_drop = 10.0
         lrate = initial_lrate * math.pow(drop, math.floor((1+epoch)/epochs_drop))
         return lrate
-![Image alt] (https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/StepDecay.jpg) 
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/StepDecay.jpg) 
 
 **б)** Экспоненциальное затухание, файл train_expDecay_1.py. 
        
@@ -21,7 +21,7 @@
         k = 0.1
         lrate = initial_lrate * np.exp(-k*epoch)
         return lrate
-![Image alt] (https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/ExpDecay.jpg) 
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/ExpDecay.jpg) 
 
 **Задание 2**
 
@@ -39,7 +39,7 @@
         else:
            lrate = initial_lrate * math.pow(drop, math.floor((1+epoch)/epochs_drop))
            return lrate
-![Image alt] (https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/StepDecay_WarmUp.jpg) 
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/StepDecay_WarmUp.jpg) 
 
 **б)** "Предварительный разогрев" с последующим экспоненциальным затуханием, файл train_expDecay_warmUp.py. 
 
@@ -54,6 +54,5 @@
        else:
            lrate = initial_lrate * np.exp(-k*epoch)
            return lrate
-![Image alt] (https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/ExpDecay_WarmUp.jpg) 
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/ExpDecay_WarmUp.jpg) 
 
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30d.jpg)
