@@ -56,4 +56,4 @@
            return lrate
 ![Image alt] (https://github.com/Repsolka/SMOMI/blob/Lab5/Graphs/ExpDecay_WarmUp.jpg) 
 
-
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30d.jpg)
