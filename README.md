@@ -16,11 +16,18 @@ BUTCH_SIZE=8, lr=0.0000001
 производилось обучение классификатора с последующим сохранением весовых коэффициентов.
 Графики для замороженной сети:
 
-BUTCH_SIZE=8, lr=0.0000009, такой темп обучения выбран только потому, что при темпе обучения 0.000001 получалось 75 - 80 эпох, чего на мой взгляд показалось маловато. Поэтому был выбран темп меньше чем 0.000001, но близок к данному значению чтобы увеличить количество эпох обучения до 95.
+BUTCH_SIZE=8, lr=0.000003
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.000003.jpg)
+
+BUTCH_SIZE=8, lr=0.0000009
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.0000009.jpg)
 
 BUTCH_SIZE=8, lr=0.000001
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.000001.jpg)
+
+Сравнение графиков с темпами обучения 0.0000009(оранжевый) и 0.000001(синий)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_1vs09.jpg)
+
 
 В файле train_defrost.py использована предобученная на image.net сеть VGG16. В данной сети были разморожены свёрточные слои
 и использованны весовые коэффициенты из предыдущего запуска. 
