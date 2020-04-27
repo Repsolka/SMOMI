@@ -36,6 +36,9 @@
 **BUTCH_SIZE=8, lr=0.00000000003**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedDefrost/defrost_8_0.00000000003.jpg)
 
+**BUTCH_SIZE=8, lr=0.00000000002**
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedDefrost/defrost_8_0.00000000002.jpg)
+
 **BUTCH_SIZE=8, lr=0.00000000001**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedDefrost/defrost_8_0.00000000001.jpg)
 
