@@ -20,7 +20,7 @@
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.000003.jpg)
 
 **BUTCH_SIZE=8, lr=0.0000009**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.0000009.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.0000009_1.jpg)
 
 **BUTCH_SIZE=8, lr=0.000001**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab3/Graphs/PreTrainedFreeze/freeze_8_0.000001.jpg)
