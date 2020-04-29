@@ -32,7 +32,7 @@
 Файл train_randomBrightness.py, lr = 1*10^(-11).
 Графики:
 
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomBrightness/bright_1e-11.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomBrightness/bright_1e-11_noSmoothing.jpg)
 
     tf.image.random_brightness(image, 0.4, seed=None)
     tf.image.random_contrast(image, lower=0.2, upper=1.2 seed=None)
