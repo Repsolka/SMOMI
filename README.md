@@ -8,7 +8,7 @@
     
 Файл train_randomFlipping.py, lr = 1*10^(-11)
 Графики:
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/randomFlipping/flip_1e-11.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/randomFlipping/flip_1e-11_noSmoothing.jpg)
 
 
 **b)** Аугментация с помощью поворота на случайный угол [-a;a]. Файл train_rotate.py, lr = 1*10^(-11)
