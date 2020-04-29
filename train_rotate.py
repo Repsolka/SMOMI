@@ -68,13 +68,13 @@ def create_augmented_dataset(filenames, batch_size):
         .map(resize)\
         .map(normalize)\
         .map(augmented_train)\
+        .map(resize)\
         .shuffle(buffer_size=5 * batch_size)\
         .repeat()\
         .batch(batch_size)\
         .prefetch(2 * batch_size)
 
 def augmented_train(image, label):
-    image = tf.image.convert_image_dtype(image, tf.float32)
     degree = 45
     dgr = random.uniform(-degree, degree)
     image = tf.contrib.image.rotate(image, dgr * math.pi / 180, interpolation='BILINEAR')
