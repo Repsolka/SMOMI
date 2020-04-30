@@ -17,7 +17,7 @@
 
 Графики:
     **30 градусов**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30d.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30.jpg)
     **45 градусов**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_45.jpg)
     **Сравнение**
