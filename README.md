@@ -16,6 +16,8 @@
     image = tf.contrib.image.rotate(image, dgr * math.pi / 180, interpolation='BILINEAR')
 
 Графики:
+    **15 градусов**
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_15.jpg)
     **30 градусов**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30.jpg)
     **45 градусов**
