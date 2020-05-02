@@ -51,7 +51,7 @@
 Файл train_randomCrop.py, lr = 1*10^(-11).
 Графики:
     **size=[170, 130, 3]**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_170x130.jpg)
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/170x130.jpg)
     **size=[112, 112, 3]**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_112x112.jpg)
     **Сравнение**
