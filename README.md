@@ -52,8 +52,8 @@
 Графики:
     **size=[170, 130, 3]**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/170x130.jpg)
-    **size=[112, 112, 3]**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_112x112.jpg)
+    **size=[170, 170, 3]**
+![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/170x170.jpg)
     **Сравнение**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_compare.jpg)
 
