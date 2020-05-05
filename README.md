@@ -56,8 +56,7 @@
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/170x170.jpg)
     **size=[200, 200, 3]**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/200x200.jpg)
-    **Сравнение**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/randomCrop/crop_1e-11_compare.jpg)
+   
 
    **e)** Методы a, b, c, d с оптимальными параметрами
    
