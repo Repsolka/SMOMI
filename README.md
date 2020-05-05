@@ -24,10 +24,7 @@
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_45.jpg)
     **60 градусов**
 ![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_60.jpg)
-    **Сравнение**
-![Image alt](https://github.com/Repsolka/SMOMI/blob/Lab4/Graphs/rotate/rot_1e-11_30_45.jpg)
-
-
+   
 **c)** В данном пункте проводилась аугментация данных с помощью случайного изменения яркости и контраста 
 
     tf.image.random_brightness(image, 0.5, seed=None)
